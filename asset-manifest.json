@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/makeup/static/css/main.114ad168.css",
+    "main.js": "/makeup/static/js/main.8b515d96.js",
+    "static/js/998.cf7479fc.chunk.js": "/makeup/static/js/998.cf7479fc.chunk.js",
+    "static/js/556.02fe8564.chunk.js": "/makeup/static/js/556.02fe8564.chunk.js",
+    "static/js/810.b84293eb.chunk.js": "/makeup/static/js/810.b84293eb.chunk.js",
+    "static/media/hero.jpg": "/makeup/static/media/hero.00bdca2ac24d0cf0a224.jpg",
+    "index.html": "/makeup/index.html",
+    "main.114ad168.css.map": "/makeup/static/css/main.114ad168.css.map",
+    "main.8b515d96.js.map": "/makeup/static/js/main.8b515d96.js.map",
+    "998.cf7479fc.chunk.js.map": "/makeup/static/js/998.cf7479fc.chunk.js.map",
+    "556.02fe8564.chunk.js.map": "/makeup/static/js/556.02fe8564.chunk.js.map",
+    "810.b84293eb.chunk.js.map": "/makeup/static/js/810.b84293eb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.114ad168.css",
+    "static/js/main.8b515d96.js"
+  ]
+}
