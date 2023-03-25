@@ -1,4 +1,18 @@
 /* @import-normalize; bring in normalize.css styles */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,500;0,700;1,100;1,400&family=Syncopate:wght@400;700&display=swap');
+
+:root {
+  --accent-color:rgb(86, 52, 5);
+  --white: white;
+  --darkText:#2f303a;
+  --marine: rgb(179, 179, 179);
+  --marineLogo:rgba(179, 179, 179, .75);
+  --cubik:cubic-bezier(0.4, 0, 0.2, 1);
+  --desctop: 1280px;
+  --tablet: 748px;
+  --mobile: 480px;
+  --logo-font: 'Syncopate';
+}
 html {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -12,16 +26,35 @@ html {
          -moz-box-sizing: inherit;
               box-sizing: inherit;
   }
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+  body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    color: var(--darkText);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+ul{
+  list-style-type: none;
+}
+ul,
+li,
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+
+img {
+  display: block;
 }

@@ -12,7 +12,7 @@ window.addEventListener('resize', () => {
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename="/makeup">
+    <BrowserRouter basename="/makeup/">
       <App />
     </BrowserRouter>
   </React.StrictMode>

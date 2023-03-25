@@ -1,0 +1,91 @@
+footer {
+  background-color: #2f303a;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.logoItem {
+  margin-bottom: 20px;
+}
+
+.booking {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--white);
+}
+.item {
+  margin-bottom: 10px;
+}
+.contacts {
+  color: var(--white);
+  transition: color 250ms var(--cubik);
+}
+.contacts:hover {
+  color: var(--accent-color);
+}
+.social {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 25px;
+}
+.social__item {
+  margin-right: 10px;
+}
+.social__item:last-child {
+  margin-right: 0;
+}
+.social__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--white);
+  fill: var(--accent-color);
+  outline: none;
+  transition: fill 250ms var(--cubik), background-color 250ms var(--cubik);
+}
+.social__link:hover,
+.social__link:focus,
+.social__link:active {
+  background-color: var(--accent-color);
+  fill: var(--white);
+}
+
+.copiright {
+  text-align: center;
+  border-top: 1px solid #1c1c21;
+  color: var(--white);
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-weight: 200;
+}
+.contactsList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 235px;
+}
+
+@media screen and (min-width: 768px) {
+
+  .booking {
+    text-align: start;
+  }
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .contactsList {
+    display: block;
+  }
+
+}
