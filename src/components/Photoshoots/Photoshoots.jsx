@@ -1,9 +1,4 @@
 import app from '../App.module.css';
-// import { getMediaByUsername } from 'nanogram.js'
-
-// getMediaByUsername('instagram').then((media) => {
-//   console.log(media);
-// });
 
 const Photoshoots = () => {
   return (
