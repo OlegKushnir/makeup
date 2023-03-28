@@ -15,7 +15,7 @@ const Home = () => {
           }
           ref={ref}
         >
-          Katherine Makhlay<span className={app.hero__sublogo}>makeup artist</span>
+          Kate Makhlai<span className={app.hero__sublogo}>makeup artist</span>
         </h2>
       </div>
       <div className={app.container}>

@@ -6,7 +6,7 @@ const About = () => {
       <div className={app.wrapper}>
         <img className={app.imgWrapper} src="/makeup/about.jpg" alt="" />
       </div>
-      <h2 className={app.section__title}>Katherine Makhlay</h2>
+      <h2 className={app.section__title}>Kate Makhlai</h2>
       <div className={app.wrapper}>
         <article className={app.text}>
             <p>

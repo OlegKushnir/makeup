@@ -83,7 +83,7 @@ const MobileNavigation = ({ mobileHidden, updateMobileHidden }) => {
           </NavLink>
         </li>
       </ul>
-      <a href="tel:+381111111111" className={css.booking}>
+      <a href="mailto:email@gmail.com" className={css.booking}>
         Book Makeup
       </a>
     </div>
