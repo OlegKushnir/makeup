@@ -262,12 +262,15 @@ footer .logo {
     padding-left: 10px;
     padding-right: 10px;
   }
+  .logo__thumb {
+    display: none;
+  }
   .hero {
     height: calc(100vh - 60px);
   }
 
   .hero__title {
-    font-size: 100px;
+    font-size: 76px;
   }
 
   .hero__sublogo {
@@ -341,7 +344,9 @@ footer .logo {
   header .logo {
     font-size: 28px;
   }
-
+  .hero__title {
+    font-size: 100px;
+  }
   .hero__sublogo {
     padding-right: 55px;
   }

@@ -5,6 +5,7 @@ header {
   left: 0;
   width: 100%;
   z-index: 2;
+  height: 49px;
 }
 
 .wrapper {
@@ -24,6 +25,7 @@ header {
   font-weight: 500;
   font-size: 25px;
   color: var(--darkText);
+  text-transform: uppercase;
   transition: color 250ms var(--cubik);
 }
 .booking {
@@ -85,6 +87,9 @@ header {
 }
 
 @media screen and (min-width: 768px) {
+  header {
+    height: 60px;
+  }
   .mobile__menu {
     display: none;
   }
@@ -99,6 +104,7 @@ header {
     justify-content: flex-end;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin: 0 auto;
   }
   .item {
     margin-right: 20px;

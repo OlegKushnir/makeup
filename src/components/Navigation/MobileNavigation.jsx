@@ -21,6 +21,60 @@ const MobileNavigation = ({ mobileHidden, updateMobileHidden }) => {
         </li>
         <li className={css.mobile__item}>
           <NavLink
+            to="/about"
+            className={css.navLink}
+            onClick={() => updateMobileHidden(!mobileHidden)}
+          >
+            About
+          </NavLink>
+        </li>
+        <li className={css.mobile__item}>
+          <NavLink
+            to="/brides"
+            className={css.navLink}
+            onClick={() => updateMobileHidden(!mobileHidden)}
+          >
+            Brides
+          </NavLink>
+        </li>
+        <li className={css.mobile__item}>
+          <NavLink
+            to="/clients"
+            className={css.navLink}
+            onClick={() => updateMobileHidden(!mobileHidden)}
+          >
+            Clients
+          </NavLink>
+        </li>
+        <li className={css.mobile__item}>
+          <NavLink
+            to="/photoshoots"
+            className={css.navLink}
+            onClick={() => updateMobileHidden(!mobileHidden)}
+          >
+            Photoshoots
+          </NavLink>
+        </li>
+        <li className={css.mobile__item}>
+          <NavLink
+            to="/price"
+            className={css.navLink}
+            onClick={() => updateMobileHidden(!mobileHidden)}
+          >
+            Price
+          </NavLink>
+        </li>
+        <li className={css.mobile__item}>
+          <NavLink
+            to="/faq"
+            className={css.navLink}
+            onClick={() => updateMobileHidden(!mobileHidden)}
+          >
+            FAQ
+          </NavLink>
+        </li>
+        <li className={css.mobile__item}>
+          <NavLink
             to="/contacts"
             className={css.navLink}
             onClick={() => updateMobileHidden(!mobileHidden)}

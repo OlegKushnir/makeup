@@ -1,12 +1,12 @@
 import app from '../App.module.css';
 
-const About = () => {
+const Clients = () => {
   return (
     <section>
-      <div className={app.wrapper}>
+      {/* <div className={app.wrapper}>
         <img className={app.imgWrapper} src="/makeup/about.jpg" alt="" />
-      </div>
-      <h2 className={app.section__title}>Kate Machlay</h2>
+      </div> */}
+      <h2 className={app.section__title}>Clients</h2>
       <div className={app.wrapper}>
         <article className={app.text}>
             <p>
@@ -39,4 +39,4 @@ const About = () => {
     </section>
   );
 };
-export default About;
+export default Clients;

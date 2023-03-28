@@ -33,7 +33,7 @@ const Footer = () => {
               <ul className={css.social}>
                 <li className={css.social__item}>
                   <a
-                    href="https://www.instagram.com"
+                    href="https://instagram.com/kate_makhlai?igshid=YmMyMTA2M2Y="
                     target="_blank"
                     rel="noopener noreferrer"
                     className={css.social__link}
