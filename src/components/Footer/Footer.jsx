@@ -93,8 +93,7 @@ const Footer = () => {
         </div>
       </div>
       <div className={css.copiright}>
-        <p> Developed by </p>
-        <p>Oleg Kushnir &#169;</p>
+        <p> Developed by Oleg Kushnir &#169;</p>
       </div>
     </footer>
   );
