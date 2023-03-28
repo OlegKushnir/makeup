@@ -1,20 +1,30 @@
 {
   "files": {
-    "main.css": "/makeup/static/css/main.114ad168.css",
-    "main.js": "/makeup/static/js/main.8b515d96.js",
+    "main.css": "/makeup/static/css/main.cd147e00.css",
+    "main.js": "/makeup/static/js/main.f7bcee5a.js",
     "static/js/998.cf7479fc.chunk.js": "/makeup/static/js/998.cf7479fc.chunk.js",
     "static/js/556.02fe8564.chunk.js": "/makeup/static/js/556.02fe8564.chunk.js",
-    "static/js/810.b84293eb.chunk.js": "/makeup/static/js/810.b84293eb.chunk.js",
+    "static/js/810.d40d17f5.chunk.js": "/makeup/static/js/810.d40d17f5.chunk.js",
+    "static/js/125.2afdebb9.chunk.js": "/makeup/static/js/125.2afdebb9.chunk.js",
+    "static/js/97.6b7015cd.chunk.js": "/makeup/static/js/97.6b7015cd.chunk.js",
+    "static/js/753.ff9d7c96.chunk.js": "/makeup/static/js/753.ff9d7c96.chunk.js",
+    "static/js/883.14a7de57.chunk.js": "/makeup/static/js/883.14a7de57.chunk.js",
+    "static/js/491.87b83610.chunk.js": "/makeup/static/js/491.87b83610.chunk.js",
     "static/media/hero.jpg": "/makeup/static/media/hero.00bdca2ac24d0cf0a224.jpg",
     "index.html": "/makeup/index.html",
-    "main.114ad168.css.map": "/makeup/static/css/main.114ad168.css.map",
-    "main.8b515d96.js.map": "/makeup/static/js/main.8b515d96.js.map",
+    "main.cd147e00.css.map": "/makeup/static/css/main.cd147e00.css.map",
+    "main.f7bcee5a.js.map": "/makeup/static/js/main.f7bcee5a.js.map",
     "998.cf7479fc.chunk.js.map": "/makeup/static/js/998.cf7479fc.chunk.js.map",
     "556.02fe8564.chunk.js.map": "/makeup/static/js/556.02fe8564.chunk.js.map",
-    "810.b84293eb.chunk.js.map": "/makeup/static/js/810.b84293eb.chunk.js.map"
+    "810.d40d17f5.chunk.js.map": "/makeup/static/js/810.d40d17f5.chunk.js.map",
+    "125.2afdebb9.chunk.js.map": "/makeup/static/js/125.2afdebb9.chunk.js.map",
+    "97.6b7015cd.chunk.js.map": "/makeup/static/js/97.6b7015cd.chunk.js.map",
+    "753.ff9d7c96.chunk.js.map": "/makeup/static/js/753.ff9d7c96.chunk.js.map",
+    "883.14a7de57.chunk.js.map": "/makeup/static/js/883.14a7de57.chunk.js.map",
+    "491.87b83610.chunk.js.map": "/makeup/static/js/491.87b83610.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.114ad168.css",
-    "static/js/main.8b515d96.js"
+    "static/css/main.cd147e00.css",
+    "static/js/main.f7bcee5a.js"
   ]
 }
