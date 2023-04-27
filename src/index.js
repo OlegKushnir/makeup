@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { App } from 'components/App';
 import 'normalize.css';
 import './index.css';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { BrowserRouter } from 'react-router-dom';
 
 window.addEventListener('resize', () => {
