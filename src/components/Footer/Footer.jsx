@@ -8,7 +8,7 @@ const Footer = () => {
         <div className={css.wrapper}>
           <ul className={css.contactsList}>
             <li className={css.logoItem}>
-              <span className={app.logo}>Makeup</span>
+              <span className={app.logo}>Kate Makhlai</span>
             </li>
 
             <li className={css.item}>

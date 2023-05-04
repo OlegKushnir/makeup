@@ -1,0 +1,67 @@
+[
+    {
+        "id": "1",
+        "title": "Brides",
+        "images": [
+            "bride1.jpg",
+            "bride2.jpg",
+            "bride3.jpg",
+            "bride4.jpg",
+            "bride5.jpg",
+            "bride6.jpg",
+            "bride7.jpg",
+            "bride8.jpg",
+            "bride9.jpg",
+            "bride10.jpg"
+      
+        ]
+    },
+    {
+        "id": "2",
+        "title": "Clients",
+        "images": [
+            "client1.jpg",
+            "client2.jpg",
+            "client3.jpg",
+            "client4.jpg",
+            "client5.jpg",
+            "client6.jpg",
+            "client7.jpg",
+            "client8.jpg",
+            "client9.jpg",
+            "client10.jpg",
+            "client11.jpg",
+            "client12.jpg",
+            "client13.jpg",
+            "client14.jpg"
+      
+        ]
+    },
+    {
+        "id": "3",
+        "title": "Photoshoots",
+        "images": [
+            "photoshoot1.jpg",
+            "photoshoot2.jpg",
+            "photoshoot3.jpg",
+            "photoshoot4.jpg",
+            "photoshoot5.jpg",
+            "photoshoot6.jpg",
+            "photoshoot7.jpg",
+            "photoshoot8.jpg",
+            "photoshoot9.jpg",
+            "photoshoot10.jpg",
+            "photoshoot11.jpg",
+            "photoshoot12.jpg",
+            "photoshoot13.jpg",
+            "photoshoot14.jpg",
+            "photoshoot15.jpg",
+            "photoshoot16.jpg",
+            "photoshoot17.jpg",
+            "photoshoot18.jpg",
+            "photoshoot19.jpg",
+            "photoshoot20.jpg"
+        ]
+    }
+
+]

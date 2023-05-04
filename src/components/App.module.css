@@ -108,7 +108,6 @@ footer .logo {
 }
 
 .about .imgWrapper {
-  
   max-height: calc(100vh - 51px);
   margin-bottom: 20px;
 }
@@ -117,6 +116,8 @@ footer .logo {
   width: 100%;
   object-fit: contain;
 }
+
+
 
 .price table {
  margin: 0 auto;
@@ -183,8 +184,24 @@ footer .logo {
   fill: var(--accent-color);
 }
 
-.location {
-  display: none;
+.list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.gal {
+  background-color: rgba(0, 0, 0, 0.697);
+}
+
+.gal__img {
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+  aspect-ratio: 1 / 1;
+
 }
 
 @media screen and (min-width: 768px) {
@@ -232,15 +249,6 @@ footer .logo {
   .section__title {
     font-size: 40px;
   }
-  /* .table {
-    font-size: 16px;
-  }
-  .table__title {
-    font-size: 16px;
-  }
-  .filling {
-    font-size: 16px;
-  } */
 
   .content {
     padding-top: 60px;
@@ -263,6 +271,32 @@ footer .logo {
     width: 50px;
     height: 50px;
   }
+
+  .gal__btn__wrapper {
+    z-index: 2;
+    padding: 20px;
+  }
+  .gal__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    border: 0;
+    border-radius: 50%;
+    background-color: var(--darkText);
+    color: var(--white);
+    opacity: 0.7;
+  }
+
+  .photoshoots .item,
+  .brides .item {
+    width: calc((100% - (25px * 3)) / 4);
+  }
+  
 
 }
 @media screen and (min-width: 1280px) {
@@ -297,9 +331,7 @@ footer .logo {
     width: 75px;
     height: 75px;
   }
-  /* .location {
-    max-width: 650px;
-    min-width: 300px;
-    height: 300px;
-  } */
+  .list {
+    justify-content: start;
+  }
 }
