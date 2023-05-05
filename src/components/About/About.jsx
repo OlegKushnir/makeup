@@ -17,6 +17,7 @@ const About = () => {
             showThumbs={false}
             transitionTime={2000}
             stopOnHover={false}
+            swipeable={false}
           >
             <div>
               <img src="/makeup/about1_d.jpg" alt="" />
