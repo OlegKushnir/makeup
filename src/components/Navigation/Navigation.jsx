@@ -1,52 +1,55 @@
 import css from './Navigation.module.css';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 
 const Navigation = () => {
+  const path = useLocation().pathname;
+  const setClassName = param => {
+    if (path === param) return `${css.navLink} ${css.active}`;
+    return css.navLink;
+  };
   return (
-    
-      <ul className={css.thumb}>
-        <li className={css.item}>
-          <NavLink to="/" className={css.navLink}>
-            Home
-          </NavLink>
-        </li>
-        <li className={css.item}>
-          <NavLink to="/about" className={css.navLink}>
-            About
-          </NavLink>
-        </li>
-        <li className={css.item}>
-          <NavLink to="/brides" className={css.navLink}>
-            Brides
-          </NavLink>
-        </li>
-        <li className={css.item}>
-          <NavLink to="/clients" className={css.navLink}>
+    <ul className={css.thumb}>
+      <li className={css.item}>
+        <NavLink to="/" className={setClassName('/')}>
+          Home
+        </NavLink>
+      </li>
+      <li className={css.item}>
+        <NavLink to="/about" className={setClassName('/about')}>
+          About
+        </NavLink>
+      </li>
+      <li className={css.item}>
+        <NavLink to="/brides" className={setClassName('/brides')}>
+          Brides
+        </NavLink>
+      </li>
+      <li className={css.item}>
+        <NavLink to="/clients" className={setClassName('/clients')}>
           Clients
-          </NavLink>
-        </li>
-        <li className={css.item}>
-          <NavLink to="/photoshoots" className={css.navLink}>
+        </NavLink>
+      </li>
+      <li className={css.item}>
+        <NavLink to="/photoshoots" className={setClassName('/photoshoots')}>
           Photoshoots
-          </NavLink>
-        </li>
-        <li className={css.item}>
-          <NavLink to="/price" className={css.navLink}>
+        </NavLink>
+      </li>
+      <li className={css.item}>
+        <NavLink to="/price" className={setClassName('/price')}>
           Price
-          </NavLink>
-        </li>
-        <li className={css.item}>
-          <NavLink to="/faq" className={css.navLink}>
+        </NavLink>
+      </li>
+      <li className={css.item}>
+        <NavLink to="/faq" className={setClassName('/faq')}>
           FAQ
-          </NavLink>
-        </li>
-        <li className={css.item}>
-          <NavLink to="/contacts" className={css.navLink}>
-            Contacts
-          </NavLink>
-        </li>
-      </ul>
-    
+        </NavLink>
+      </li>
+      <li className={css.item}>
+        <NavLink to="/contacts" className={setClassName('/contacts')}>
+          Contacts
+        </NavLink>
+      </li>
+    </ul>
   );
 };
 export default Navigation;

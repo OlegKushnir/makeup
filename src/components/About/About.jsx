@@ -4,7 +4,6 @@ import { Carousel } from 'react-responsive-carousel';
 const About = () => {
   return (
     <section className={app.about}>
-      {/* <h2 className={app.section__title}>About me</h2> */}
       <div className={app.wrapper}>
         <div className={app.imgWrapper}>
           <Carousel
@@ -30,6 +29,7 @@ const About = () => {
             </div>
           </Carousel>
         </div>
+        <h2 className={app.section__title}>About me</h2>
         <article className={app.text}>
           <p>
             Dears, here I want to tell you a little about myself and how I got

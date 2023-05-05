@@ -28,6 +28,11 @@ header {
   text-transform: uppercase;
   transition: color 250ms var(--cubik);
 }
+
+.active {
+  font-weight: 700;
+  color: var(--accent-color);
+}
 .booking {
   padding: 20px;
   margin-bottom: 20px;
@@ -42,8 +47,7 @@ header {
 }
 
 .navLink:hover,
-.navLink:focus,
-.navLink:active {
+.navLink:focus {
   color: var(--accent-color);
 }
 .booking:hover,
