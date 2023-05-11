@@ -32,7 +32,6 @@ const GalleryLightbox = ({ links, currentImage, handleClick }) => {
     handleClick('');
     // navigate('/portfolio');
   };
-
   // useEffect(() => {
   //   if (path !== '/portfolio/view') navigate('view');
   // },[path, navigate]);
