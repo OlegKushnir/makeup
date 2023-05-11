@@ -6,7 +6,6 @@ import photos from '../../db/photos.json';
 const Brides = () => {
   const [openedLightBox, updateLightBox] = useState(false);
   const [image, updateImage] = useState('');
-
   const brides = photos.find(page => page.title === 'Brides');
   const { images } = brides;
   const handleClick = img => {
@@ -43,6 +42,8 @@ const Brides = () => {
           links={images}
           currentImage={image}
           handleClick={handleClick}
+          // state={{from:location}}
+          // replace
         />
       ) : (
         ''

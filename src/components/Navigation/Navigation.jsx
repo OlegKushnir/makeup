@@ -20,6 +20,11 @@ const Navigation = () => {
         </NavLink>
       </li>
       <li className={css.item}>
+        <NavLink to="/portfolio" className={setClassName('/portfolio')}>
+          Portfolio
+        </NavLink>
+      </li>
+      {/* <li className={css.item}>
         <NavLink to="/brides" className={setClassName('/brides')}>
           Brides
         </NavLink>
@@ -33,7 +38,7 @@ const Navigation = () => {
         <NavLink to="/photoshoots" className={setClassName('/photoshoots')}>
           Photoshoots
         </NavLink>
-      </li>
+      </li> */}
       <li className={css.item}>
         <NavLink to="/price" className={setClassName('/price')}>
           Price

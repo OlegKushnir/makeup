@@ -206,10 +206,11 @@ footer .logo {
 }
 
 @media screen and (min-width: 768px) {
-  .about .section__title,
-  .brides .section__title,
+  .about .section__title
+  /* .brides .section__title,
   .clients .section__title,
-  .photoshoots .section__title {
+  .photoshoots .section__title  */
+  {
     position: absolute;
     white-space: nowrap;
     width: 1px;
@@ -221,6 +222,12 @@ footer .logo {
     clip-path: inset(50%);
     margin: -1px;
   }
+  
+
+  .section__title {
+    font-size: 36px;
+  }
+
   .container {
     width: var(--tablet);
     padding-left: 10px;
@@ -262,9 +269,6 @@ footer .logo {
 
   .hero__sublogo {
     font-size: 32px;
-  }
-  .section__title {
-    font-size: 40px;
   }
 
   .content {
@@ -329,6 +333,10 @@ footer .logo {
   }
   .about .imgWrapper {
     margin-right: 50px;
+  }
+
+  .section__title {
+    font-size: 40px;
   }
 
   .contacts__wrapper {

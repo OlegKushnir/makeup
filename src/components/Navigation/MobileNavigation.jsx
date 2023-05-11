@@ -30,6 +30,15 @@ const MobileNavigation = ({ mobileHidden, updateMobileHidden }) => {
         </li>
         <li className={css.mobile__item}>
           <NavLink
+            to="/portfolio"
+            className={css.navLink}
+            onClick={() => updateMobileHidden(!mobileHidden)}
+          >
+            Portfolio
+          </NavLink>
+        </li>
+        {/* <li className={css.mobile__item}>
+          <NavLink
             to="/brides"
             className={css.navLink}
             onClick={() => updateMobileHidden(!mobileHidden)}
@@ -54,7 +63,7 @@ const MobileNavigation = ({ mobileHidden, updateMobileHidden }) => {
           >
             Photoshoots
           </NavLink>
-        </li>
+        </li> */}
         <li className={css.mobile__item}>
           <NavLink
             to="/price"

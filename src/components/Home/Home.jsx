@@ -1,7 +1,6 @@
 import About from 'components/About/About';
 import app from '../App.module.css';
 import { useInView } from 'react-intersection-observer';
-import Faq from 'components/Faq/Faq';
 
 const Home = () => {
   const { ref, inView } = useInView({
@@ -22,7 +21,6 @@ const Home = () => {
       </div>
       <div className={app.container}>
         <About/>
-        <Faq/>
       </div>
     </>
   );
