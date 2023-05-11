@@ -1,18 +1,19 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
+// import React, { useEffect, useState } from 'react';
 import Lightbox from 'react-spring-lightbox';
 import app from './App.module.css';
 import PropTypes from 'prop-types';
-import { useLocation, useNavigate } from 'react-router-dom';
+// import { useLocation, useNavigate } from 'react-router-dom';
 
 const GalleryLightbox = ({ links, currentImage, handleClick }) => {
-  const navigate = useNavigate();
-  const location = useLocation();
-  const path = location.pathname;
+  // const navigate = useNavigate();
+  // const location = useLocation();
+  // const path = location.pathname;
   const images = [];
   links.map(link =>
     images.push({
-      src: `../${link}`,
-      // src: link,
+      // src: `../${link}`,
+      src: link,
       loading: 'lazy',
       alt: link,
     })
@@ -29,12 +30,12 @@ const GalleryLightbox = ({ links, currentImage, handleClick }) => {
     setCurrentIndex(currentImageIndex + 1);
   const handleClose = () => {
     handleClick('');
-    navigate('/portfolio');
+    // navigate('/portfolio');
   };
 
-  useEffect(() => {
-    if (path !== '/portfolio/view') navigate('view');
-  },[path, navigate]);
+  // useEffect(() => {
+  //   if (path !== '/portfolio/view') navigate('view');
+  // },[path, navigate]);
 
   return (
     <Lightbox
