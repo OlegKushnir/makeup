@@ -1,24 +1,26 @@
 import app from '../App.module.css';
-import { NavLink } from 'react-router-dom';
 
 const Contacts = () => {
+  const handleSubmit = () => {
+    console.log('Sending message');
+  };
   return (
     <>
       <section>
         <div className={app.contacts__wrapper}>
           <ul className={app.contacts}>
             <li className={app.contacts__item}>
-              <NavLink to="/map" className={app.contacts__link}>
+              <div className={app.contacts__link}>
                 <svg className="icon" width="30" height="30">
                   <use href="icons.svg#map"></use>
                 </svg>
-              </NavLink>
+              </div>
               <div>
                 <h2 className={app.title}>Location</h2>
-                <p className={app.text}>Makeup location</p>
+                <p className={app.text}>London, UK</p>
               </div>
             </li>
-            <li className={app.contacts__item}>
+            {/* <li className={app.contacts__item}>
               <span className={app.contacts__link}>
                 <svg className="icon" width="30" height="30">
                   <use href="icons.svg#clock"></use>
@@ -29,7 +31,7 @@ const Contacts = () => {
                 <p className={app.text}>Monday to Friday 08:00 to 18:00</p>
                 <p className={app.text}>Saturday: 10:00 - 14:00</p>
               </div>
-            </li>
+            </li> */}
             <li className={app.contacts__item}>
               <a
                 href="mailto:email@gmail.com"
@@ -41,7 +43,7 @@ const Contacts = () => {
                 </svg>
               </a>
               <div>
-                <h2 className={app.title}>Message Us</h2>
+                <h2 className={app.title}>Email</h2>
                 <p className={app.text}>email@gmail.com</p>
               </div>
             </li>
@@ -61,21 +63,16 @@ const Contacts = () => {
               </div>
             </li>
           </ul>
-          <div className={app.contacts}>
-            <article className={app.text}>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Possimus, voluptas quo eveniet, repellat accusantium reiciendis
-                ad facere alias recusandae incidunt rem consequuntur, laboriosam
-                ipsam? Itaque error dolorum repudiandae magni quos.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam,
-                quo nam. Aspernatur, incidunt reprehenderit? Ratione, modi
-                ipsam. Veniam harum voluptas eos ducimus, consequuntur eum at
-                unde similique nesciunt. Excepturi, itaque.
-              </p>
-            </article>
+
+          <div className={app.message}>
+            <h2 className={app.title}>Message Me</h2>
+            <form  onSubmit={handleSubmit}>
+              <label>Email</label>
+              <input type="email" name="email" required />
+              <label>Message</label>
+              <textarea name="message" rows="6" cols="30" required></textarea>
+              <button type="submit">Send</button>
+            </form>
           </div>
         </div>
       </section>
