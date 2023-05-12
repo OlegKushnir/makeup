@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/makeup/static/css/main.b8c3c86a.css",
-    "main.js": "/makeup/static/js/main.af170478.js",
+    "main.css": "/makeup/static/css/main.fd35bf4d.css",
+    "main.js": "/makeup/static/js/main.1b522b25.js",
     "static/js/998.4f21beb5.chunk.js": "/makeup/static/js/998.4f21beb5.chunk.js",
-    "static/js/556.66ac935b.chunk.js": "/makeup/static/js/556.66ac935b.chunk.js",
+    "static/js/556.315fff9c.chunk.js": "/makeup/static/js/556.315fff9c.chunk.js",
     "static/js/810.98eb3386.chunk.js": "/makeup/static/js/810.98eb3386.chunk.js",
     "static/js/125.0a54ddaf.chunk.js": "/makeup/static/js/125.0a54ddaf.chunk.js",
     "static/js/111.6444addb.chunk.js": "/makeup/static/js/111.6444addb.chunk.js",
@@ -15,10 +15,10 @@
     "static/js/197.28da2091.chunk.js": "/makeup/static/js/197.28da2091.chunk.js",
     "static/media/hero.jpg": "/makeup/static/media/hero.00bdca2ac24d0cf0a224.jpg",
     "index.html": "/makeup/index.html",
-    "main.b8c3c86a.css.map": "/makeup/static/css/main.b8c3c86a.css.map",
-    "main.af170478.js.map": "/makeup/static/js/main.af170478.js.map",
+    "main.fd35bf4d.css.map": "/makeup/static/css/main.fd35bf4d.css.map",
+    "main.1b522b25.js.map": "/makeup/static/js/main.1b522b25.js.map",
     "998.4f21beb5.chunk.js.map": "/makeup/static/js/998.4f21beb5.chunk.js.map",
-    "556.66ac935b.chunk.js.map": "/makeup/static/js/556.66ac935b.chunk.js.map",
+    "556.315fff9c.chunk.js.map": "/makeup/static/js/556.315fff9c.chunk.js.map",
     "810.98eb3386.chunk.js.map": "/makeup/static/js/810.98eb3386.chunk.js.map",
     "125.0a54ddaf.chunk.js.map": "/makeup/static/js/125.0a54ddaf.chunk.js.map",
     "111.6444addb.chunk.js.map": "/makeup/static/js/111.6444addb.chunk.js.map",
@@ -30,7 +30,7 @@
     "197.28da2091.chunk.js.map": "/makeup/static/js/197.28da2091.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8c3c86a.css",
-    "static/js/main.af170478.js"
+    "static/css/main.fd35bf4d.css",
+    "static/js/main.1b522b25.js"
   ]
 }
