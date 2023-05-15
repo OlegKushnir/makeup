@@ -46,6 +46,7 @@
 
 .portfolio nav {
   flex-direction: column;
+  margin-bottom: 5px;
 }
 
 .portfolio nav a {
@@ -58,7 +59,7 @@
   background-size: cover;
   color: var(--white);
   padding-right: 5px;
-  height: calc((100vh - 49px - (5px * 2)) / 3);
+  height: calc(((var(--vh, 1vh) * 100) - 49px) / 3);
   transition: height 1s var(--cubik), box-shadow 1s var(--cubik);
 }
 
@@ -92,6 +93,7 @@
 @media screen and (min-width: 768px) {
   .portfolio nav {
     flex-direction: row;
+    margin-bottom: 0;
   }
 
   .portfolio nav a {

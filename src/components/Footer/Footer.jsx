@@ -40,7 +40,7 @@ const Footer = () => {
                     title="instagram"
                   >
                     <svg className="icon" width="20" height="20">
-                      <use href="icons.svg#instagram"></use>
+                      <use href="../../makeup/icons.svg#instagram"></use>
                     </svg>
                   </a>
                 </li>
@@ -53,7 +53,7 @@ const Footer = () => {
                     title="telegram"
                   >
                     <svg className="icon" width="25" height="25">
-                      <use href="icons.svg#telegram"></use>
+                      <use href="../../makeup/icons.svg#telegram"></use>
                     </svg>
                   </a>
                 </li>
@@ -66,7 +66,7 @@ const Footer = () => {
                     title="WhatsApp"
                   >
                     <svg className="icon" width="30" height="30">
-                      <use href="icons.svg#whatsapp"></use>
+                      <use href="../../makeup/icons.svg#whatsapp"></use>
                     </svg>
                   </a>
                 </li>
@@ -79,7 +79,7 @@ const Footer = () => {
                     title="Viber"
                   >
                     <svg className="icon" width="27" height="27">
-                      <use href="icons.svg#viber"></use>
+                      <use href="../../makeup/icons.svg#viber"></use>
                     </svg>
                   </a>
                 </li>
