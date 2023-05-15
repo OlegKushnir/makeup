@@ -1,15 +1,15 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 import app from '../App.module.css';
 import MessageMe from './MessageMe';
 
 const Contacts = () => {
-  const [openMessage, setOpenMessage] = useState(false);
+  // const [openMessage, setOpenMessage] = useState(false);
   // const handleSubmit = () => {
   //   console.log('Sending message');
   // };
   const handleOpen = () => {
     // setOpenMessage(!openMessage);
-    setOpenMessage(true);
+    // setOpenMessage(true);
 
   }
   return (
