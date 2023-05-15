@@ -36,11 +36,11 @@ const Header = () => {
           >
             {mobileHidden ? (
               <svg width="40" height="40">
-                <use href="icons.svg#menu_40px"></use>
+                <use href="../../makeup/icons.svg#menu_40px"></use>
               </svg>
             ) : (
               <svg width="35" height="35">
-                <use href="icons.svg#close-black"></use>
+                <use href="../../makeup/icons.svg#close-black"></use>
               </svg>
             )}
           </button>
