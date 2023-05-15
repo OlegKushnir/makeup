@@ -59,7 +59,7 @@
   background-size: cover;
   color: var(--white);
   padding-right: 5px;
-  height: calc(((var(--vh, 1vh) * 100) - 49px) / 3);
+  height: calc(((var(--vh, 1vh) * 100) - (5px * 2) - 50px) / 3);
   transition: height 1s var(--cubik), box-shadow 1s var(--cubik);
 }
 
