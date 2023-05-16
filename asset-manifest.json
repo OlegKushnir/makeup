@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/makeup/static/css/main.c7fda59c.css",
+    "main.css": "/makeup/static/css/main.cd833dca.css",
     "main.js": "/makeup/static/js/main.26afec58.js",
     "static/js/998.4f21beb5.chunk.js": "/makeup/static/js/998.4f21beb5.chunk.js",
     "static/js/623.4858154c.chunk.js": "/makeup/static/js/623.4858154c.chunk.js",
@@ -17,13 +17,13 @@
     "static/js/491.e3c5898c.chunk.js": "/makeup/static/js/491.e3c5898c.chunk.js",
     "static/js/722.a95c731e.chunk.js": "/makeup/static/js/722.a95c731e.chunk.js",
     "static/js/197.28da2091.chunk.js": "/makeup/static/js/197.28da2091.chunk.js",
+    "static/media/hero.jpg": "/makeup/static/media/hero.fccb6673883f6013a352.jpg",
     "static/media/client1.jpg": "/makeup/static/media/client1.8bf85e7a4cac00cbce1d.jpg",
     "static/media/bride1.jpg": "/makeup/static/media/bride1.88c5e50fb0a30e9ee72a.jpg",
-    "static/media/hero.jpg": "/makeup/static/media/hero.00bdca2ac24d0cf0a224.jpg",
     "static/media/photoshoot1.jpg": "/makeup/static/media/photoshoot1.76b11941f16bea8b8daf.jpg",
     "static/media/bride1_min.jpg": "/makeup/static/media/bride1_min.44804ec7ece5446effb5.jpg",
     "index.html": "/makeup/index.html",
-    "main.c7fda59c.css.map": "/makeup/static/css/main.c7fda59c.css.map",
+    "main.cd833dca.css.map": "/makeup/static/css/main.cd833dca.css.map",
     "main.26afec58.js.map": "/makeup/static/js/main.26afec58.js.map",
     "998.4f21beb5.chunk.js.map": "/makeup/static/js/998.4f21beb5.chunk.js.map",
     "623.4858154c.chunk.js.map": "/makeup/static/js/623.4858154c.chunk.js.map",
@@ -42,7 +42,7 @@
     "197.28da2091.chunk.js.map": "/makeup/static/js/197.28da2091.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7fda59c.css",
+    "static/css/main.cd833dca.css",
     "static/js/main.26afec58.js"
   ]
 }
