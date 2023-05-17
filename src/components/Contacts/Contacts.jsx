@@ -7,11 +7,11 @@ const Contacts = () => {
   // const handleSubmit = () => {
   //   console.log('Sending message');
   // };
-  const handleOpen = () => {
-    // setOpenMessage(!openMessage);
-    // setOpenMessage(true);
+  // const handleOpen = () => {
+  //   setOpenMessage(!openMessage);
+  //   setOpenMessage(true);
 
-  }
+  // }
   return (
         <div className={app.contacts__wrapper}>
           <ul className={app.contacts}>
@@ -33,7 +33,7 @@ const Contacts = () => {
                 title="email"
               >
                 <svg className="icon" width="30" height="30">
-                  <use href="icons.svg#envelope"></use>
+                  <use href="icons.svg#alternate_email"></use>
                 </svg>
               </a>
               <div>
@@ -56,14 +56,14 @@ const Contacts = () => {
                 <p className={app.text}>(+38) 111 111 11 11</p>
               </div>
             </li>
-            <li className={app.contacts__item} onClick={handleOpen}>
+            {/* <li className={app.contacts__item} onClick={handleOpen}>
               <div className={app.contacts__link} id='message'>
                 <svg className="icon" width="30" height="30">
                   <use href="icons.svg#envelope"></use>
                 </svg>
               </div>
-              {/* {openMessage ? <MessageMe/> : <h2 className={app.title}>Message Me</h2>} */}
-            </li>
+              {openMessage ? <MessageMe/> : <h2 className={app.title}>Message Me</h2>}
+            </li> */}
           </ul>
           <MessageMe/>
           {/* <div className={app.message}>
