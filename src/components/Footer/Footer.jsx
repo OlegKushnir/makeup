@@ -87,13 +87,17 @@ const Footer = () => {
             </li>
           </ul>
 
-          <div
-            className={app.location}
-          ></div>
+          <div className={app.location}></div>
         </div>
       </div>
       <div className={css.copiright}>
         <p> Developed by Oleg Kushnir &#169;</p>
+        <a className={css.atr}
+          href="https://www.flaticon.com/free-icons/makeup"
+          title="makeup icons"
+        >
+          Makeup icons created by Freepik - Flaticon
+        </a>
       </div>
     </footer>
   );
