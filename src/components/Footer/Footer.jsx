@@ -12,6 +12,11 @@ const Footer = () => {
             </li>
 
             <li className={css.item}>
+              <h3 className={css.contacts}>Location:</h3>
+              <p className={css.contacts}>London, UK</p>
+            </li>
+
+            {/* <li className={css.item}>
               <h3 className={css.booking}>Contacts:</h3>
             </li>
             <li className={css.item}>
@@ -28,7 +33,8 @@ const Footer = () => {
               <a className={css.contacts} href="mailto:email@gmail.com">
                 email@gmail.com
               </a>
-            </li>
+            </li> */}
+
             <li>
               <ul className={css.social}>
                 <li className={css.social__item}>
@@ -44,7 +50,7 @@ const Footer = () => {
                     </svg>
                   </a>
                 </li>
-                <li className={css.social__item}>
+                {/* <li className={css.social__item}>
                   <a
                     href="telegram.org"
                     target="_blank"
@@ -56,7 +62,7 @@ const Footer = () => {
                       <use href="../../makeup/icons.svg#telegram"></use>
                     </svg>
                   </a>
-                </li>
+                </li> */}
                 <li className={css.social__item}>
                   <a
                     href="https://www.whatsapp.com/"
@@ -70,7 +76,7 @@ const Footer = () => {
                     </svg>
                   </a>
                 </li>
-                <li className={css.social__item}>
+                {/* <li className={css.social__item}>
                   <a
                     href="https://www.viber.com/"
                     target="_blank"
@@ -82,7 +88,7 @@ const Footer = () => {
                       <use href="../../makeup/icons.svg#viber"></use>
                     </svg>
                   </a>
-                </li>
+                </li> */}
               </ul>
             </li>
           </ul>
@@ -92,7 +98,8 @@ const Footer = () => {
       </div>
       <div className={css.copiright}>
         <p> Developed by Oleg Kushnir &#169;</p>
-        <a className={css.atr}
+        <a
+          className={css.atr}
           href="https://www.flaticon.com/free-icons/makeup"
           title="makeup icons"
         >
