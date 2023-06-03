@@ -177,17 +177,31 @@ footer .logo {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 10px;
-  width: 50px;
-  height: 50px;
-  fill: var(--darkText);
   outline: none;
+  color: var(--darkText);
   transition: fill 250ms var(--cubik);
 }
+
+.contacts__link .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  fill: var(--darkText);
+  outline: none;
+ 
+}
+
+.contacts__link .text{
+ margin-left: 10px;
+}
+
 .contacts__link:hover,
 .contacts__link:focus,
 .contactsl__link:active {
   fill: var(--accent-color);
+  color: var(--accent-color);;
 }
 
 .message {
@@ -347,9 +361,9 @@ footer .logo {
     flex-direction: row;
     gap: 30px;
   }
-  .contacts__link {
-    width: 50px;
-    height: 50px;
+  .contacts__link .icon {
+    width: 40px;
+    height: 40px;
   }
 
   .gal__btn__wrapper {
@@ -404,10 +418,10 @@ footer .logo {
     width: 100%;
     font-size: 16px;
   }
-  .contacts__link {
+  /* .contacts__link .icon{
     width: 75px;
     height: 75px;
-  }
+  } */
   .list {
     justify-content: start;
   }
