@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/makeup/static/css/main.be61bb3c.css",
-    "main.js": "/makeup/static/js/main.9bfd3dd8.js",
+    "main.css": "/makeup/static/css/main.b7e4acdc.css",
+    "main.js": "/makeup/static/js/main.cf6db329.js",
     "static/js/998.4f21beb5.chunk.js": "/makeup/static/js/998.4f21beb5.chunk.js",
-    "static/js/623.1a279d89.chunk.js": "/makeup/static/js/623.1a279d89.chunk.js",
+    "static/js/623.be47550c.chunk.js": "/makeup/static/js/623.be47550c.chunk.js",
     "static/js/810.98eb3386.chunk.js": "/makeup/static/js/810.98eb3386.chunk.js",
     "static/css/559.25eaabe0.chunk.css": "/makeup/static/css/559.25eaabe0.chunk.css",
     "static/js/559.bf75abd1.chunk.js": "/makeup/static/js/559.bf75abd1.chunk.js",
@@ -25,10 +25,10 @@
     "static/media/client1_min.jpg": "/makeup/static/media/client1_min.b97f65f5764c8387ea1b.jpg",
     "static/media/photoshoot1_min.jpg": "/makeup/static/media/photoshoot1_min.88b20759abb0273141a3.jpg",
     "index.html": "/makeup/index.html",
-    "main.be61bb3c.css.map": "/makeup/static/css/main.be61bb3c.css.map",
-    "main.9bfd3dd8.js.map": "/makeup/static/js/main.9bfd3dd8.js.map",
+    "main.b7e4acdc.css.map": "/makeup/static/css/main.b7e4acdc.css.map",
+    "main.cf6db329.js.map": "/makeup/static/js/main.cf6db329.js.map",
     "998.4f21beb5.chunk.js.map": "/makeup/static/js/998.4f21beb5.chunk.js.map",
-    "623.1a279d89.chunk.js.map": "/makeup/static/js/623.1a279d89.chunk.js.map",
+    "623.be47550c.chunk.js.map": "/makeup/static/js/623.be47550c.chunk.js.map",
     "810.98eb3386.chunk.js.map": "/makeup/static/js/810.98eb3386.chunk.js.map",
     "559.25eaabe0.chunk.css.map": "/makeup/static/css/559.25eaabe0.chunk.css.map",
     "559.bf75abd1.chunk.js.map": "/makeup/static/js/559.bf75abd1.chunk.js.map",
@@ -44,7 +44,7 @@
     "197.28da2091.chunk.js.map": "/makeup/static/js/197.28da2091.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.be61bb3c.css",
-    "static/js/main.9bfd3dd8.js"
+    "static/css/main.b7e4acdc.css",
+    "static/js/main.cf6db329.js"
   ]
 }
