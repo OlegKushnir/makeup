@@ -98,7 +98,7 @@ const MessageMe = () => {
             required
           ></textarea>
 
-          <button type="submit">
+          <button type="submit"> Send Message
           </button>
         </form>
       ) : (

@@ -233,7 +233,7 @@ footer .logo {
 }
 .message button {
   background-color: var(--accent-color);
-  padding: 5px;
+  padding: 7px;
   border: 0;
   color: var(--white);
   font-weight: 500;
