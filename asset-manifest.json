@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/makeup/static/css/main.a4c2333d.css",
-    "main.js": "/makeup/static/js/main.b48e99d1.js",
+    "main.css": "/makeup/static/css/main.dde94045.css",
+    "main.js": "/makeup/static/js/main.dd599c39.js",
     "static/js/998.4f21beb5.chunk.js": "/makeup/static/js/998.4f21beb5.chunk.js",
-    "static/js/108.a3a9488e.chunk.js": "/makeup/static/js/108.a3a9488e.chunk.js",
+    "static/js/108.4d856880.chunk.js": "/makeup/static/js/108.4d856880.chunk.js",
     "static/js/810.98eb3386.chunk.js": "/makeup/static/js/810.98eb3386.chunk.js",
     "static/css/559.25eaabe0.chunk.css": "/makeup/static/css/559.25eaabe0.chunk.css",
     "static/js/559.86795065.chunk.js": "/makeup/static/js/559.86795065.chunk.js",
@@ -25,10 +25,10 @@
     "static/media/client1_min.jpg": "/makeup/static/media/client1_min.b97f65f5764c8387ea1b.jpg",
     "static/media/photoshoot1_min.jpg": "/makeup/static/media/photoshoot1_min.88b20759abb0273141a3.jpg",
     "index.html": "/makeup/index.html",
-    "main.a4c2333d.css.map": "/makeup/static/css/main.a4c2333d.css.map",
-    "main.b48e99d1.js.map": "/makeup/static/js/main.b48e99d1.js.map",
+    "main.dde94045.css.map": "/makeup/static/css/main.dde94045.css.map",
+    "main.dd599c39.js.map": "/makeup/static/js/main.dd599c39.js.map",
     "998.4f21beb5.chunk.js.map": "/makeup/static/js/998.4f21beb5.chunk.js.map",
-    "108.a3a9488e.chunk.js.map": "/makeup/static/js/108.a3a9488e.chunk.js.map",
+    "108.4d856880.chunk.js.map": "/makeup/static/js/108.4d856880.chunk.js.map",
     "810.98eb3386.chunk.js.map": "/makeup/static/js/810.98eb3386.chunk.js.map",
     "559.25eaabe0.chunk.css.map": "/makeup/static/css/559.25eaabe0.chunk.css.map",
     "559.86795065.chunk.js.map": "/makeup/static/js/559.86795065.chunk.js.map",
@@ -44,7 +44,7 @@
     "197.28da2091.chunk.js.map": "/makeup/static/js/197.28da2091.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4c2333d.css",
-    "static/js/main.b48e99d1.js"
+    "static/css/main.dde94045.css",
+    "static/js/main.dd599c39.js"
   ]
 }
