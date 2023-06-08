@@ -92,9 +92,9 @@ const MobileNavigation = ({ mobileHidden, updateMobileHidden }) => {
           </NavLink>
         </li>
       </ul>
-      <a href="mailto:email@gmail.com" className={css.booking}>
+      {/* <a href="mailto:email@gmail.com" className={css.booking}>
         Book Makeup
-      </a>
+      </a> */}
     </div>
   );
 };
