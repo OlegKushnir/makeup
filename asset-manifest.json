@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/makeup/static/css/main.dde94045.css",
-    "main.js": "/makeup/static/js/main.8930af40.js",
+    "main.js": "/makeup/static/js/main.d24228e7.js",
     "static/js/998.4f21beb5.chunk.js": "/makeup/static/js/998.4f21beb5.chunk.js",
     "static/js/108.4d856880.chunk.js": "/makeup/static/js/108.4d856880.chunk.js",
     "static/js/810.98eb3386.chunk.js": "/makeup/static/js/810.98eb3386.chunk.js",
@@ -26,7 +26,7 @@
     "static/media/photoshoot1_min.jpg": "/makeup/static/media/photoshoot1_min.88b20759abb0273141a3.jpg",
     "index.html": "/makeup/index.html",
     "main.dde94045.css.map": "/makeup/static/css/main.dde94045.css.map",
-    "main.8930af40.js.map": "/makeup/static/js/main.8930af40.js.map",
+    "main.d24228e7.js.map": "/makeup/static/js/main.d24228e7.js.map",
     "998.4f21beb5.chunk.js.map": "/makeup/static/js/998.4f21beb5.chunk.js.map",
     "108.4d856880.chunk.js.map": "/makeup/static/js/108.4d856880.chunk.js.map",
     "810.98eb3386.chunk.js.map": "/makeup/static/js/810.98eb3386.chunk.js.map",
@@ -45,6 +45,6 @@
   },
   "entrypoints": [
     "static/css/main.dde94045.css",
-    "static/js/main.8930af40.js"
+    "static/js/main.d24228e7.js"
   ]
 }
