@@ -27,7 +27,7 @@
       rgba(0, 0, 0, 0.3) 0%,
       rgba(0, 0, 0, 0.3) 100%
     ),
-    url(/public/hero_opt.jpg);
+    url(/public/hero.jpg);
   /* background-image: linear-gradient(0deg, rgba(0,0,0,0.2) 35%,rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.2) 55%), url(/public/hero.jpg); */
 
   /* background-image: url(/public/hero.jpg); */
@@ -316,6 +316,12 @@ footer .logo {
   }
   .hero {
     height: calc(100vh - 60px);
+    background-image: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.3) 0%,
+        rgba(0, 0, 0, 0.3) 100%
+      ),
+      url(/public/hero_opt.jpg);
   }
 
   .hero__title {
