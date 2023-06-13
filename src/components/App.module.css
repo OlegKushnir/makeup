@@ -27,10 +27,7 @@
       rgba(0, 0, 0, 0.3) 0%,
       rgba(0, 0, 0, 0.3) 100%
     ),
-    url(/public/hero.jpg);
-  /* background-image: linear-gradient(0deg, rgba(0,0,0,0.2) 35%,rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.2) 55%), url(/public/hero.jpg); */
-
-  /* background-image: url(/public/hero.jpg); */
+    url(/public/hero_m.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
@@ -321,7 +318,7 @@ footer .logo {
         rgba(0, 0, 0, 0.3) 0%,
         rgba(0, 0, 0, 0.3) 100%
       ),
-      url(/public/hero_opt.jpg);
+      url(/public/hero_d.jpg);
   }
 
   .hero__title {

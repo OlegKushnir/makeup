@@ -105,16 +105,16 @@
   }
 
   .portfolio .brides__link {
-    background-position: 50% 50%;
+    background-position: 50% 42%;
     background-image: url(/public/bride1.jpg);
   }
   .portfolio .photoshoots__link {
     background-image: url(/public/photoshoot1.jpg);
-    background-position: 50% 50%;
+    background-position: 50% 40%;
   }
   .portfolio .clients__link {
     background-image: url(/public/client1.jpg);
-    background-position: 50% 50%;
+    background-position: 50% 62%;
   }
 
   .title {
