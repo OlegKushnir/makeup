@@ -26,7 +26,7 @@ const Footer = () => {
                     title="instagram"
                   >
                     <svg className="icon" width="20" height="20">
-                      <use href="../../makeup/icons.svg#instagram"></use>
+                      <use href="icons.svg#instagram"></use>
                     </svg>
                   </a>
                 </li>
@@ -39,7 +39,7 @@ const Footer = () => {
                     title="WhatsApp"
                   >
                     <svg className="icon" width="30" height="30">
-                      <use href="../../makeup/icons.svg#whatsapp"></use>
+                      <use href="icons.svg#whatsapp"></use>
                     </svg>
                   </a>
                 </li>

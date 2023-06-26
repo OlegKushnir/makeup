@@ -28,7 +28,7 @@ const Contacts = () => {
             title="instagram"
           >
             <svg className={app.icon} width="30" height="30">
-              <use href="../../makeup/icons.svg#instagram"></use>
+              <use href="icons.svg#instagram"></use>
             </svg>
             <div className={app.text}>
               <h2 className={app.title}>Instagram</h2>
@@ -45,48 +45,15 @@ const Contacts = () => {
             title="WhatsApp"
           >
             <svg className={app.icon} width="40" height="40">
-              <use href="../../makeup/icons.svg#whatsapp"></use>
+              <use href="icons.svg#whatsapp"></use>
             </svg>
             <div className={app.text}>
               <h2 className={app.title}>WhatsApp</h2>
             </div>
           </a>
         </li>
-        {/* <li className={app.contacts__item}>
-              <a
-                href="tel:+3801111111111"
-                className={app.contacts__link}
-                title="phone"
-              >
-                <svg className="icon" width="30" height="30">
-                  <use href="icons.svg#phone-form"></use>
-                </svg>
-              </a>
-              <div>
-                <h2 className={app.title}>Book Makeup</h2>
-                <p className={app.text}>(+38) 111 111 11 11</p>
-              </div>
-            </li> */}
-        {/* <li className={app.contacts__item} onClick={handleOpen}>
-              <div className={app.contacts__link} id='message'>
-                <svg className="icon" width="30" height="30">
-                  <use href="icons.svg#envelope"></use>
-                </svg>
-              </div>
-              {openMessage ? <MessageMe/> : <h2 className={app.title}>Message Me</h2>}
-            </li> */}
       </ul>
       <MessageMe />
-      {/* <div className={app.message}>
-            <h2 className={app.title}>Message Me</h2>
-            <form  onSubmit={handleSubmit}>
-              <label>Email</label>
-              <input type="email" name="email" required />
-              <label>Message</label>
-              <textarea name="message" rows="6" cols="30" required></textarea>
-              <button type="submit">Send</button>
-            </form>
-          </div> */}
     </div>
   );
 };

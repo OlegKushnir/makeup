@@ -49,13 +49,13 @@ const About = () => {
             swipeable={false}
           >
             <div>
-              <img src="/makeup/about1_d.jpg" alt="" />
+              <img src="about1_d.jpg" alt="" />
             </div>
             <div>
-              <img src="/makeup/about2_d.jpg" alt="" />
+              <img src="about2_d.jpg" alt="" />
             </div>
             <div>
-              <img src="/makeup/about3_d.jpg" alt="" />
+              <img src="about3_d.jpg" alt="" />
             </div>
           </Carousel>
         </div>

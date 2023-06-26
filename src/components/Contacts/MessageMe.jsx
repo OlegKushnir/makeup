@@ -43,10 +43,7 @@ const MessageMe = () => {
 
     emailjs
       .send(
-        process.env.REACT_APP_EMAILJS_SERVICE,
-        process.env.REACT_APP_EMAILJS_TEMPLATE,
-        params,
-        process.env.REACT_APP_EMAILJS_KEY
+        "service_h4f22sj", "template_g77gnhh", params, "SZi1xZP4Ul4cEHJGl"
       )
       .then(
         ({ status }) => {
@@ -103,7 +100,7 @@ const MessageMe = () => {
         </form>
       ) : (
         <ReCAPTCHA
-          sitekey={process.env.REACT_APP_RECAPCHA}
+          sitekey="6Lci_XwmAAAAAOJ9w77v9qCbOQW9oYbshD89fK_K"
           onChange={sendEmail}
         />
       )}
