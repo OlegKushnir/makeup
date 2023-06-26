@@ -5,30 +5,6 @@ const About = () => {
   return (
     <section className={app.about}>
       <div className={app.wrapper}>
-        {/* <div className={app.imgWrapper}>
-          <Carousel
-            autoPlay
-            showArrows={false}
-            interval={10000}
-            infiniteLoop={true}
-            showStatus={false}
-            showIndicators={false}
-            showThumbs={false}
-            transitionTime={2000}
-            stopOnHover={false}
-            swipeable={false}
-          >
-            <div>
-              <img src="/makeup/about1_d.jpg" alt="" />
-            </div>
-            <div>
-              <img src="/makeup/about2_d.jpg" alt="" />
-            </div>
-            <div>
-              <img src="/makeup/about3_d.jpg" alt="" />
-            </div>
-          </Carousel>
-        </div> */}
         <h2 className={app.section__title}>About me</h2>
         <article className={app.text}>
           <p>

@@ -1,17 +1,8 @@
-// import { useState } from 'react';
 import app from '../App.module.css';
 import MessageMe from './MessageMe';
 
 const Contacts = () => {
-  // const [openMessage, setOpenMessage] = useState(false);
-  // const handleSubmit = () => {
-  //   console.log('Sending message');
-  // };
-  // const handleOpen = () => {
-  //   setOpenMessage(!openMessage);
-  //   setOpenMessage(true);
 
-  // }
   return (
     <div className={app.contacts__wrapper}>
       <ul className={app.contacts}>

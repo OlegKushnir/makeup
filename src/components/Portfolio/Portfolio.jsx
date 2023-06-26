@@ -3,10 +3,6 @@ import css from './Portfolio.module.css';
 import { NavLink, Outlet, useLocation } from 'react-router-dom';
 import { Suspense, useEffect, useState } from 'react';
 
-// import Brides from 'components/Brides/Brides';
-// import Photoshoots from 'components/Photoshoots/Photoshoots';
-// import Clients from 'components/Clients/Clients';
-
 const Portfolio = () => {
   const [navOpen, setNavOpen] = useState(true);
   const path = useLocation().pathname;

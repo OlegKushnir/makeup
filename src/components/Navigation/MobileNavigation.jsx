@@ -37,33 +37,6 @@ const MobileNavigation = ({ mobileHidden, updateMobileHidden }) => {
             Portfolio
           </NavLink>
         </li>
-        {/* <li className={css.mobile__item}>
-          <NavLink
-            to="/brides"
-            className={css.navLink}
-            onClick={() => updateMobileHidden(!mobileHidden)}
-          >
-            Brides
-          </NavLink>
-        </li>
-        <li className={css.mobile__item}>
-          <NavLink
-            to="/clients"
-            className={css.navLink}
-            onClick={() => updateMobileHidden(!mobileHidden)}
-          >
-            Clients
-          </NavLink>
-        </li>
-        <li className={css.mobile__item}>
-          <NavLink
-            to="/photoshoots"
-            className={css.navLink}
-            onClick={() => updateMobileHidden(!mobileHidden)}
-          >
-            Photoshoots
-          </NavLink>
-        </li> */}
         <li className={css.mobile__item}>
           <NavLink
             to="/price"
@@ -92,9 +65,6 @@ const MobileNavigation = ({ mobileHidden, updateMobileHidden }) => {
           </NavLink>
         </li>
       </ul>
-      {/* <a href="mailto:email@gmail.com" className={css.booking}>
-        Book Makeup
-      </a> */}
     </div>
   );
 };

@@ -2,7 +2,7 @@ import app from '../App.module.css';
 import css from './Portfolio.module.css';
 
 import { useState } from 'react';
-import GalleryLightbox from 'components/GalleryLightbox';
+import GalleryLightbox from './GalleryLightbox';
 import photos from '../../db/photos.json';
 
 const Brides = () => {
