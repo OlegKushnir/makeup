@@ -12,9 +12,7 @@ window.addEventListener('resize', () => {
 }); //  mobile menu height fix
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
     <BrowserRouter basename="/makeup/">
       <App />
     </BrowserRouter>
-  </React.StrictMode>
 );
