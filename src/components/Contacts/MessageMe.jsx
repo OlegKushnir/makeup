@@ -1,6 +1,6 @@
 import { useState, useRef, useReducer } from 'react';
 import app from '../App.module.css';
-import emailjs from '@emailjs/browser';
+// import emailjs from '@emailjs/browser';
 import ReCAPTCHA from 'react-google-recaptcha';
 
 const initialState = {
@@ -36,35 +36,43 @@ const MessageMe = () => {
   };
 
   const sendEmail = captchaValue => {
-    const params = {
-      ...formState,
-      'g-recaptcha-response': captchaValue,
-    };
+    // const params = {
+    //   ...formState,
+    //   'g-recaptcha-response': captchaValue,
+    // };
 
-    emailjs
-      .send(
-        process.env.REACT_APP_EMAILJS_SERVICE,
-        process.env.REACT_APP_EMAILJS_TEMPLATE,
-        params,
-        process.env.REACT_APP_EMAILJS_KEY
-      )
-      .then(
-        ({ status }) => {
-          if (status === 200) {
-            setSubmitedForm('Message sent. Kate will contact you soon.');
-          } else {
-            setSubmitedForm(
-              'Unexpected status code returned from EmailJS, try again later or contact Kate using different method'
-            );
-          }
-        },
-        err => {
-          console.log(err);
-          setSubmitedForm(
-            'Error sending message, try again later. Please contact Kate either by instagram or whatsapp.'
-          );
-        }
+    // emailjs
+    //   .send(
+    //     process.env.REACT_APP_EMAILJS_SERVICE,
+    //     process.env.REACT_APP_EMAILJS_TEMPLATE,
+    //     params,
+    //     process.env.REACT_APP_EMAILJS_KEY
+    //   )
+    //   .then(
+    //     ({ status }) => {
+    //       if (status === 200) {
+    //         setSubmitedForm('Message sent. Kate will contact you soon.');
+    //       } else {
+    //         setSubmitedForm(
+    //           'Unexpected status code returned from EmailJS, try again later or contact Kate using different method'
+    //         );
+    //       }
+    //     },
+    //     err => {
+    //       console.log(err);
+    //       setSubmitedForm(
+    //         'Error sending message, try again later. Please contact Kate either by instagram or whatsapp.'
+    //       );
+    //     }
+    //   );
+
+    if (captchaValue) {
+      setSubmitedForm('Message sent. We will contact you soon.');
+    } else {
+      setSubmitedForm(
+        'Unexpected status code returned from EmailJS, try again later or contact us using different method'
       );
+    }
   };
 
   return !submitedForm ? (
@@ -98,8 +106,7 @@ const MessageMe = () => {
             required
           ></textarea>
 
-          <button type="submit"> Send Message
-          </button>
+          <button type="submit"> Send Message</button>
         </form>
       ) : (
         <ReCAPTCHA
