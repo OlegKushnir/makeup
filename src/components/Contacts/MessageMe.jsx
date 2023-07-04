@@ -73,7 +73,7 @@ const MessageMe = () => {
         'Unexpected status code returned from EmailJS, try again later or contact us using different method'
       );
     }
-    
+
   };
 
   return !submitedForm ? (
@@ -111,7 +111,7 @@ const MessageMe = () => {
         </form>
       ) : (
         <ReCAPTCHA
-          sitekey={process.env.REACT_APP_RECAPCHA}
+          sitekey="6LcEy_MmAAAAAEL_0dka0znhGQqRBgpKGQJUWsdU"
           onChange={sendEmail}
         />
       )}
