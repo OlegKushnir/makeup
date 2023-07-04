@@ -73,6 +73,7 @@ const MessageMe = () => {
         'Unexpected status code returned from EmailJS, try again later or contact us using different method'
       );
     }
+    
   };
 
   return !submitedForm ? (
